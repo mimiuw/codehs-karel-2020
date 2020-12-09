@@ -1,0 +1,145 @@
+1.1.4: Your First Karel Program
+-------------------------------
+move();
+move();
+move();
+move();
+takeBall();
+
+1.1.5: Short Stack
+------------------
+move();
+putBall();
+putBall();
+move();
+
+1.2.4: Make a Tower
+-------------------
+move();
+putBall();
+turnLeft();
+move();
+putBall();
+move();
+putBall();
+move();
+turnLeft();
+turnLeft();
+turnLeft();
+
+1.3.4: Slide Karel
+------------------
+putBall();
+move();
+turnRight();
+
+function turnRight() {
+    turnLeft();
+    turnLeft();
+    turnLeft();
+}
+
+move();
+putBall();
+move();
+turnLeft();
+move();
+putBall();
+
+1.3.5: Fireman Karel
+--------------------
+turnRight();
+function turnRight() {
+    turnLeft();
+    turnLeft();
+    turnLeft();
+}
+
+move();
+move();
+move();
+turnLeft();
+
+1.4.4: Pancakes
+---------------
+function makePancakes() {
+    putBall();
+    putBall();
+    putBall();
+}
+
+function moveTwice() {
+    move();
+    move();
+}
+
+move();
+makePancakes();
+moveTwice();
+makePancakes();
+moveTwice();
+makePancakes();
+move();
+
+1.4.5: Mario Karel
+------------------
+function moveThree() {
+    move();
+    move();
+    move();
+}
+
+function moveTwice() {
+    move();
+    move();
+}
+
+function turnRight() {
+    turnLeft();
+    turnLeft();
+    turnLeft();
+}
+
+function collectCoins() {
+    takeBall();
+    takeBall();
+}
+
+turnLeft();
+moveThree();
+turnRight();
+move();
+collectCoins();
+
+turnLeft();
+move();
+turnRight();
+moveTwice();
+turnRight();
+move();
+turnLeft();
+collectCoins();
+
+turnLeft();
+move();
+turnRight();
+moveTwice();
+turnRight();
+move();
+turnLeft();
+collectCoins();
+
+turnLeft();
+move();
+turnRight();
+moveTwice();
+turnRight();
+move();
+turnLeft();
+collectCoins();
+
+turnRight();
+moveThree();
+turnLeft();
+
+
